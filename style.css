@@ -294,12 +294,12 @@ p{
     padding-bottom: 15px;
 }
 
-  .zoom:hover {
+  /* .zoom:hover {
     transform: scale(1.1); 
-  }
+  } */
   
   body{
-      background-color: rgb(17, 17, 17);
+      background-color: #99badd;
   }
   .footer{
     left: 0;
