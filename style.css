@@ -76,9 +76,9 @@ body {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url("images/catImage.jpeg");
+    background-image: url("images/moreCodeBell.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .navTrigger {
@@ -182,36 +182,6 @@ body {
     animation-direction: reverse;
 }
 
-/* .navTrigger i:nth-child(2) {
-    margin: 5px 0;
-    -webkit-animation: outM 0.8s backwards;
-    animation: outM 0.8s backwards;
-    -webkit-animation-direction: reverse;
-    animation-direction: reverse;
-}
-
-.navTrigger i:nth-child(3) {
-    -webkit-animation: outBtm 0.8s backwards;
-    animation: outBtm 0.8s backwards;
-    -webkit-animation-direction: reverse;
-    animation-direction: reverse;
-}
-
-.navTrigger.active i:nth-child(1) {
-    -webkit-animation: inT 0.8s forwards;
-    animation: inT 0.8s forwards;
-}
-
-.navTrigger.active i:nth-child(2) {
-    -webkit-animation: inM 0.8s forwards;
-    animation: inM 0.8s forwards;
-}
-
-.navTrigger.active i:nth-child(3) {
-    -webkit-animation: inBtm 0.8s forwards;
-    animation: inBtm 0.8s forwards;
-} */
-
 .affix {
     padding: 0;
     background-color: #99badd;
@@ -220,15 +190,12 @@ body {
     color: #383131;
     box-sizing: content-box;
     height: 500px;
-    /* width: 100%; */
+
     font-size: 20px;
     margin-top: 20px;
     padding: 20px;
     text-align: center;
     overflow: scroll; 
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; */ 
 }
 .aboutInfo{
     text-align: center!important;
@@ -243,11 +210,8 @@ body {
     text-align: center;
     z-index: 10;
     color: #383131;
-
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; */
 }
+
 .contactLinks{
     /* margin-left: 300px; */
     font-size: 150px !important;
@@ -279,7 +243,6 @@ p{
     width: 150px;
 }
 
-
 .myH2 {
 	text-align:center;
 	font-size: 4rem;
@@ -299,16 +262,12 @@ p{
 .btnLinks{
     padding-bottom: 15px;
 }
-
   
   .zoom:hover {
     transform: scale(1.1); 
   
   }
-  /* .btnLinks:hover {
-    transform: scale(1.1); 
-  
-  } */
+
   body{
       background-color: #99badd;
   }
@@ -356,15 +315,6 @@ p{
 
     }
     .headshot{
-        /* height: 20%;
-        width: 70%;
-    }
-    .aboutMe{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    } */
-	
 }
 @media all and (max-width: 320px){
     .aboutMe{
@@ -373,12 +323,3 @@ p{
     height: 50%;
     overflow: scroll;
     }
-    /* .informationColumns{
-        width: 200px;
-    } */
-    /* .headshot{
-        height: 10%;
-        width: 70%;
-    } 
-	
-}

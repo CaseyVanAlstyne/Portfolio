@@ -8,3 +8,5 @@ The page is crafted using HTML, CSS, Bootstrap 4, Javascript, and jQuery. The po
 The page is responsive and features margins on each side of containers, especially when the screen size is decreased. 
 
 Please let me know if you have any questions. 
+
+Email: caseywvanalstyne@gmail.com

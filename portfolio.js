@@ -21,13 +21,7 @@ $("#aboutBtn").click(function () {
         'slow');
     console.log("scroll")
 });
-$("#skillsBtn").click(function () {
-    $('html,body').animate({
-        scrollTop: $("#skills").offset().top - 90
-    },
-        'slow');
-    console.log("scroll")
-});
+
 $("#portfolioBtn").click(function () {
     $('html, body').animate({
         scrollTop: $(".portfolio").offset().top - 95
@@ -35,13 +29,15 @@ $("#portfolioBtn").click(function () {
         'slow');
     console.log("scroll")
 });
+
 $("#contactBtn").click(function () {
     $('html, body').animate({
-        scrollTop: $("#contactMe").offset().top - 400
+        scrollTop: $("#contactMe").offset().top - 100
     },
         'slow');
     console.log("scroll")
 });
+
 $(function () {
     $('[data-toggle="popover"]').popover()
 })
